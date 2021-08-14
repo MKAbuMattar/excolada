@@ -1,6 +1,6 @@
 {
   "name": "excolada",
-  "version": "1.0.4",
+  "version": "1.01.00",
   "description": "excolada is a Platform, which is a leading API client and collaborative API, includes fundamental methods such as GET, POST, PUT, PATCH, and DELETE.",
   "main": "index.js",
   "scripts": {
