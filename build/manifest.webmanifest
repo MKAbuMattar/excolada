@@ -1,6 +1,7 @@
 {
   "short_name": "excolada",
   "name": "excolada",
+  "description": "excolada is a Platform, which is a leading API client and collaborative API, includes fundamental methods such as GET, POST, PUT, PATCH, and DELETE.",
   "icons": [
     {
       "src": "./assets/icon/favicon.ico",

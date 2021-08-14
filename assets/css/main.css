@@ -99,3 +99,59 @@ body {
 .ͼ2 .cm-activeLine {
   background-color: #00000040;
 }
+
+.floating {
+  position: fixed;
+  right: 24px;
+  bottom: 60px;
+  transition: all 500ms ease 0s;
+  z-index: 7;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.floating__btn {
+  display: none;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  pointer-events: all;
+  border: 0;
+  cursor: pointer;
+}
+
+.floating__btn:focus {
+  outline: none;
+}
+
+.floating__btn:first-child {
+  margin-bottom: 1rem;
+  background-color: #E53935;
+}
+
+.floating__btn svg {
+  display: block;
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+}
+
+.floating__btn #scrolltop-bg {
+  fill: #E53935;
+}
+
+.floating__btn #scrolltop-arrow,
+.floating__btn #install_app {
+  -webkit-transform: scale(0.66);
+  transform: scale(0.66);
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  fill: white;
+}
+
+.floating__btn #scrolltop-bg:hover {
+  fill: #C62828;
+}

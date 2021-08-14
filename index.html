@@ -6,14 +6,31 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="./assets/js/script.js" type="module"></script>
+  <script src="./assets/js/App.js" defer></script>
   <link rel="stylesheet" href="./assets/css/main.css">
-  <link rel="manifest" href="./manifest.json" />
+  <link rel="manifest" href="./manifest.webmanifest" />
   <link rel="icon" href="./assets/icon/favicon.ico" />
-  <meta name="description" content="Platform, which is a leading API client and collaborative API, includes fundamental methods such as GET, POST, PUT, PATCH, and DELETE.">
+  <meta name="description"
+    content="excolada is a Platform, which is a leading API client and collaborative API, includes fundamental methods such as GET, POST, PUT, PATCH, and DELETE.">
   <title>excolada</title>
 </head>
 
 <body>
+  <div class="floating">
+    <a id="myBtn1" class="floating__btn add-button" title="Install App">
+      <svg height="48" width="48" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" id="install_app"
+          d="M8 7C8 4.23858 10.2386 2 13 2H35C37.7614 2 40 4.23858 40 7V41C40 43.7614 37.7614 46 35 46H13C10.2386 46 8 43.7614 8 41V7ZM13 6C12.4477 6 12 6.44772 12 7V41C12 41.5523 12.4477 42 13 42H35C35.5523 42 36 41.5523 36 41V7C36 6.44772 35.5523 6 35 6H13ZM18 10C18 9.44772 18.4477 9 19 9H29C29.5523 9 30 9.44772 30 10V12C30 12.5523 29.5523 13 29 13H19C18.4477 13 18 12.5523 18 12V10ZM24 39C25.6569 39 27 37.6569 27 36C27 34.3431 25.6569 33 24 33C22.3431 33 21 34.3431 21 36C21 37.6569 22.3431 39 24 39Z">
+        </path>
+      </svg>
+    </a>
+    <a id="myBtn" class="floating__btn" title="Go to top">
+      <svg height="48" width="48" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+        <path id="scrolltop-bg" d="M0 0h48v48h-48z"></path>
+        <path id="scrolltop-arrow" d="M14.83 30.83l9.17-9.17 9.17 9.17 2.83-2.83-12-12-12 12z"></path>
+      </svg>
+    </a>
+  </div>
   <div class="p-3" style="display: grid;grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));gap: 2rem;">
     <form data-form>
       <div class="input-group mb-4">
