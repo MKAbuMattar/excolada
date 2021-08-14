@@ -139,19 +139,10 @@ body {
   height: 100%;
 }
 
-.floating__btn #scrolltop-bg {
-  fill: #E53935;
-}
-
-.floating__btn #scrolltop-arrow,
 .floating__btn #install_app {
   -webkit-transform: scale(0.66);
   transform: scale(0.66);
   -webkit-transform-origin: center;
   transform-origin: center;
   fill: white;
-}
-
-.floating__btn #scrolltop-bg:hover {
-  fill: #C62828;
 }

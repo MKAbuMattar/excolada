@@ -1,4 +1,4 @@
-const cacheName = `excolada-v1-00-00`
+const cacheName = `excolada-v1-00-3`
 const staticAssets = [
   `./`,
   `./index.html`,
@@ -10,6 +10,19 @@ const staticAssets = [
   `./assets/js/script.js`,
   `./assets/js/setupEditor.js`,
   `./manifest.webmanifest`,
+  `./_snowpack/pkg/@codemirror/basic-setup.js`,
+  `./_snowpack/pkg/@codemirror/commands.js`,
+  `./_snowpack/pkg/@codemirror/lang-json.js`,
+  `./_snowpack/pkg/bootstrap/dist/css/bootstrap.min.css`,
+  `./_snowpack/pkg/bootstrap/dist/css/bootstrap.min.css.proxy.js`,
+  `./_snowpack/pkg/axios.js`,
+  `./_snowpack/pkg/bootstrap.js`,
+  `./_snowpack/pkg/pretty-bytes.js`,
+  ``,
+  ``,
+  ``,
+  ``,
+  ``,
 ]
 
 self.addEventListener(`install`, async e => {

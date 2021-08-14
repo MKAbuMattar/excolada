@@ -9,24 +9,6 @@ if (`serviceWorker` in navigator) {
   })
 }
 
-const mybutton = document.getElementById(`myBtn`)
-
-mybutton.addEventListener(`click`, () => {
-  document.body.scrollTop = 0
-  document.documentElement.scrollTop = 0
-})
-
-const scrollFunction = () => {
-  if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
-    mybutton.style.display = `block`
-  } else {
-    mybutton.style.display = `none`
-  }
-}
-
-window.onscroll = () => {
-  scrollFunction()
-}
 
 let deferredPrompt
 const addBtn = document.querySelector(`.add-button`)
